@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e96347f480.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="container text-align-center">
+        <header>
+            <h2 class="mt-4 mb-4 text-center">Todo List</h2>
+            <form class="search my-4">
+                <input class="form-control m-auto" type="text" placeholder="Search Todos">
+            </form>
+        </header>
+        <ul class="list-group todos mx-auto">
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>Make a coffee</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>Go to the saloon</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>Meet her</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>Complete the project works</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+
+        <form class="addTodo my-4">
+            <input class="form-control m-auto text-center" type="text" name ="add" placeholder="Add Todos">
+        </form>
+
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+
+    <script src="todo.js"></script>
+</body>
+</html>

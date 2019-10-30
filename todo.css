@@ -1,0 +1,30 @@
+body{
+    background-color: darkcyan;
+}
+.container{
+    max-width: 400px;
+}
+.delete{
+    cursor: pointer;
+}
+input[type=text]{
+    background: rgba(81, 200, 204, 0.911);
+    border: none;
+}
+input[type=text]:focus{
+    color: white;
+    background: rgba(0,0,0,0.1);
+    border: none;
+    max-width: 400px;
+}
+
+.form-control.input{
+    color: white;
+}
+.todos li{
+    background: rgb(44, 197, 197);
+}
+
+.filtered{
+    display: none !important;
+}
